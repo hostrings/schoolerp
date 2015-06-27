@@ -1,0 +1,32 @@
+html, body, .container {
+    height: 100%;
+}
+body {
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+}
+a {
+	color: #white;
+	font-weight: 600;
+}
+
+.container {
+    display: table;
+    vertical-align: middle;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+.loginlogo{ margin-bottom:20px; }
+#login {
+	background-color:#ccc;
+}
+.boxwhite{
+	background-color:#fff;
+}
+.logiheader{
+	padding:10px;
+	text-align:center;
+}
+.loginloader{ padding:5px; }
+#loginerror{ display:none; }
